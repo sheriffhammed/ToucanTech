@@ -1,0 +1,1 @@
+SELECT * FROM `schools` WHERE id not in (select schoolId from members );
