@@ -43,7 +43,7 @@ $(document).ready(function(){
                     
                         $('#msg').addClass('alert alert-success');
                         $('#msg').html(data);
-                        $('#memberTable').load(location.href + " #memberTable");
+                        $('#example').load(location.href + " #example");
                         console.log(data);
                     
                 }
